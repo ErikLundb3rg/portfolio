@@ -10,7 +10,7 @@ import FadeIn from 'react-fade-in';
 import { AiOutlineArrowDown } from "react-icons/ai"
 import "./home.css"
 import Page2 from "./page2"
-
+import Erik from "../pics/jagXd.jpg"
 
 const styles = {
   bounce: {
@@ -62,8 +62,7 @@ function Home() {
 
         <div style = {{paddingTop: "10vh", textAlign: 'center', position: "relative", height: "90vh"}}>
             <FadeIn visible = {fading}> 
-              <div style = {{height: "115px", width: "115px", borderRadius: "50%", backgroundColor: "white", margin: "10px auto"}}>
-              </div>
+              <img src = {Erik} style = {{height: "115px", width: "115px", borderRadius: "50%", backgroundColor: "white", margin: "10px auto"}} />
             </FadeIn>
             
             <div style = {{fontSize: "30px"}}>
@@ -78,7 +77,10 @@ function Home() {
             </div> 
 
             <FadeIn visible = {fading}> 
-              <p style = {{margin: "4px"}}> <a href = "http://localhost:3000/"> Linkedin </a> | <a href = "http://localhost:3000/"> Github </a></p>
+              <p style = {{margin: "4px"}}> 
+                <a href = "https://www.linkedin.com/in/erik-lundberg-757a921a8/"> Linkedin </a> |
+                <a href = "https://github.com/ErikLundb3rg"> Github </a> 
+              </p>
             </FadeIn>
             
 

@@ -23,13 +23,13 @@ export default class Card extends React.Component {
                 </p>
 
                 <div className = "button-container">
-                    <Button variant="contained" color="primary" >
+                    <Button variant="contained" color="primary" href = {this.props.github}>
                         Github
                     </Button>
                 </div>
                 
                 <div className = "button-container" style = {{display: this.props.hasPage ? "inline-block" : "none"}}>
-                    <Button variant="contained" color="primary" >
+                    <Button variant="contained" color="primary" href = {this.props.link}>
                         Sida
                     </Button>
                 </div>
