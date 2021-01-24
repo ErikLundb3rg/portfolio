@@ -1,0 +1,35 @@
+
+.container {
+    top: 0;
+    width: 450px; 
+    border: 1px solid white; 
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    vertical-align: top;
+}
+.button-container {
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.button {
+    height: 30px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin: 0 auto;
+    display: inline-block;
+    margin: 0 6px;
+    
+}
+
+
+@media (max-width: 500px) {
+    .container {
+        width: auto;
+    }
+  
+}

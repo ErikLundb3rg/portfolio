@@ -1,6 +1,24 @@
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+body {
+  background-color: #000d1a;
+  color: white;
+}
 .App {
   text-align: center;
 }
+
+.body {
+  font-family: 'Roboto', sans-serif;
+}
+
 
 .App-logo {
   height: 40vmin;

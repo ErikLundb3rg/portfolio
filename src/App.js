@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Home from "./components/home"
+import "./App.css"
+import Radium, {StyleRoot} from 'radium';
+import MainBefore from "./components/mainbefore"
+import MainAfter from "./components/mainafter"
+import FadeIn from 'react-fade-in';
 
 function App() {
+  
+  const [show, setShow] = React.useState(false)
+
+  React.useEffect(() => { 
+    setTimeout(() => {
+      setShow(true)
+    }, 4000)
+  }, [show])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      
+      <Home />
+
+    </>
   );
 }
 
+//<div style = {{position: "absolute"}}>
+//        <MainBefore />  
+//      </div>
+//      <FadeIn visible = {show}>
+//        <MainAfter />
+//      </FadeIn>
+
+// 
 export default App;
