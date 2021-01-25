@@ -1,7 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://github.com/ErikLundb3rg/portfolio",
-  "version": "0.1.0",
+  "homepage": "https://ErikLundb3rg.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.2",

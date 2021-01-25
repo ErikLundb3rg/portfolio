@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom';
 import Home from "./components/home"
 import "./App.css"
 import Radium, {StyleRoot} from 'radium';
-import MainBefore from "./components/mainbefore"
-import MainAfter from "./components/mainafter"
 import FadeIn from 'react-fade-in';
 
 function App() {
