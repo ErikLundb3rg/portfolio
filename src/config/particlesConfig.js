@@ -5,7 +5,7 @@
 const particlesConfig = {
   "particles": {
     "number": {
-      "value": 60,
+      "value": 40,
       "density": {
         "enable": true,
         "value_area": 800
@@ -75,7 +75,7 @@ const particlesConfig = {
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": true,
+        "enable": false,
         "mode": "repulse"
       },
       "onclick": {
@@ -110,6 +110,6 @@ const particlesConfig = {
       }
     }
   },
-  "retina_detect": true
+  "retina_detect": false
 }
 export default particlesConfig;
