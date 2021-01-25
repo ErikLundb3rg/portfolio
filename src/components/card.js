@@ -7,6 +7,11 @@ import Button from '@material-ui/core/Button';
 
 import FadeIn from 'react-fade-in';
 
+const openInNewTab = (url) => {
+    const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+    if (newWindow) newWindow.opener = null
+  }
+
 
 export default class Card extends React.Component {
     constructor(props) {
@@ -23,13 +28,13 @@ export default class Card extends React.Component {
                 </p>
 
                 <div className = "button-container">
-                    <Button variant="contained" color="primary" href = {this.props.github}>
+                    <Button variant="contained" color="primary" onClick = {() => openInNewTab(this.props.github)}>
                         Github
                     </Button>
                 </div>
                 
                 <div className = "button-container" style = {{display: this.props.hasPage ? "inline-block" : "none"}}>
-                    <Button variant="contained" color="primary" href = {this.props.link}>
+                    <Button variant="contained" color="primary" onClick = {() => openInNewTab(this.props.link)}>
                         Sida
                     </Button>
                 </div>
