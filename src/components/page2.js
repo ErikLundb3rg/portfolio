@@ -11,7 +11,7 @@ function Page2() {
         <h1 style = {{textDecoration: "underline", textDecorationThickness: "3px"}}> Projekt </h1>
         <div>
             <Card 
-                tag = "Socket io chat app"
+                tag = "Socket Io chat app"
                 description = "En simpel live chatapp byggd med hjälp av MongoDB, Express, Node och React js!. 
                                 Grymt projekt som var gynnsamt för att lära sig MERN stacken."
                 hasPage = {false}            
