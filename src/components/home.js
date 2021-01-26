@@ -108,7 +108,7 @@ function Home() {
               Jag heter Erik och är en reko kille som nu går första året Datateknik på LTH. 
               På fritiden tycker jag bland annat om att programmera! att programmera! 
               Just nu letar jag efter ett sommarjobb i Stockholm.
-              Kanske du eller någon du känner kan hjälpa mig
+              Kanske du eller någon du känner kan hjälpa mig?
             </p>
           </FadeIn>
         </div>
