@@ -107,8 +107,8 @@ function Home() {
             <h1> Tja! </h1>
             <p style = {{maxWidth: "600px", margin: "0 auto", textAlign: "center"}}> 
               Jag heter Erik och är en reko kille som nu går första året Datateknik på LTH. 
-              På fritiden tycker jag bland annat om att programmera! Här på min portfoliohemsida kan du se 
-              några av mina projekt. 
+              På fritiden tycker jag bland annat om att programmera! Just nu letar jag efter ett sommarjobb i Stockholm.
+              Kanske du eller någon du känner kan hjälpa mig?
             </p>
           </FadeIn>
         </div>
@@ -126,3 +126,12 @@ function Home() {
 
 // 
 export default Home;
+
+
+
+
+
+
+
+
+  
