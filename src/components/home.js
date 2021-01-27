@@ -31,7 +31,7 @@ function Home() {
   const myRef = React.useRef(null)
 
   const executeScroll = () => {
-    myRef.current.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'end' })
+    myRef.current.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'end' })
   }
 
   React.useEffect(() => {
@@ -101,7 +101,7 @@ function Home() {
         </div>
         
 
-        <div style = {{textAlign: "center", padding: "30px", display: secFade ? "block" : "none"}} >
+        <div style = {{textAlign: "center", padding: "30px", display: secFade ? "block" : "none"}} ref = {myRef}  >
           <FadeIn visible = {secFade} delay = {1200}>
             <h1> Tja! </h1>
             <p style = {{maxWidth: "600px", margin: "0 auto", textAlign: "center"}}> 
@@ -113,7 +113,7 @@ function Home() {
           </FadeIn>
         </div>
         
-        <div style = {{display: secFade ? "block" : "none", position: "relative"}} ref = {myRef} >
+        <div style = {{display: secFade ? "block" : "none", position: "relative"}} >
           <FadeIn visible = {secFade} delay = {1200}>
             <Page2 />
           </FadeIn>
