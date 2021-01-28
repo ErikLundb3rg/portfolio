@@ -13,15 +13,15 @@ function Page2() {
             <Card 
                 tag = "Socket Io chat app"
                 description = "En simpel live chatapp byggd med hjälp av MongoDB, Express, Node och React js!. 
-                                Grymt projekt som var gynnsamt för att lära sig MERN stacken."
+                                Kul projekt för att bli lite vassare i backend!"
                 hasPage = {false}            
                 github = "https://github.com/ErikLundb3rg/MERNchatapp"
             />
             <Card 
                 tag = "Coronastatistik.nu"
-                description = "Ett stort projekt som jag gav mig an i somras. Använde diverse api-er och bibliotek  
+                description = "Ett större projekt som jag gav mig an i somras. Använde diverse api-er och bibliotek  
                                 för att sätta ihop och kartlägga data över covid statistik. Till skillnad från FMHs
-                                hemsida kan man t.ex jämföra länder."
+                                hemsida kan man t.ex jämföra länder. Hemsidan är inte den mest responsiva..."
                 hasPage = {true}
                 link = "https://coronastatistik.nu/ "
                 github = "https://github.com/ErikLundb3rg/Coronastatistik"
@@ -36,8 +36,7 @@ function Page2() {
             <Card
                 tag = "Gymnasiearbete: Självkörande bil"
                 description = "Jag och en kompis byggde en bil som skulle lära sig att köra genom ett neuralt
-                                nätverk som tränades i en simulering. Projektet gick... ganska bra. Hursomhelst ett kul
-                                projekt"
+                                nätverk som tränades i en simulering. Projektet var inte helt lyckat. Men vi kom långt! "
                 hasPage = {false}
                 github = "https://github.com/Lucketyp/gymnasiearbete"
             />
