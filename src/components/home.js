@@ -11,6 +11,7 @@ import { AiOutlineArrowDown } from "react-icons/ai"
 import "./home.css"
 import Page2 from "./page2"
 import Erik from "../pics/jagXd.jpg"
+import CV from "../documents/CV.pdf"
 
 const styles = {
   bounce: {
@@ -76,8 +77,9 @@ function Home() {
             </div> 
 
             <FadeIn visible = {fading}> 
-              <p style = {{margin: "4px"}}> 
+              <p style = {{margin: "4px", textDecoration: "none"}}> 
                 <a href = "https://www.linkedin.com/in/erik-lundberg-757a921a8/"> Linkedin </a> |
+                <a href = {CV} target = "_blank"> CV </a> |
                 <a href = "https://github.com/ErikLundb3rg"> Github </a> 
               </p>
             </FadeIn>
