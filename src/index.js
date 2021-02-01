@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import ReactGA from 'react-ga';
 
 
-ReactGA.initialize('G-P9CDPHM8M0');
+ReactGA.initialize('UA-165869420-3');
 
 ReactGA.pageview(window.location.pathname + window.location.search);
 
