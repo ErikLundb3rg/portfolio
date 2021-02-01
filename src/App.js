@@ -4,6 +4,12 @@ import Home from "./components/home"
 import "./App.css"
 import Radium, {StyleRoot} from 'radium';
 import FadeIn from 'react-fade-in';
+import ReactGA from 'react-ga';
+
+function initializeReactGA() {
+  ReactGA.initialize('260705654');
+  ReactGA.pageview('/portfolio');
+}
 
 function App() {
   
